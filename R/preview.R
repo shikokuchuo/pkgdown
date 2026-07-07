@@ -21,6 +21,7 @@ preview_site <- function(pkg = ".", path = ".", preview = TRUE) {
     root <- pkg$dst_path
 
     if (is.null(the$server) || !identical(the$server_root, root)) {
+      rlang::check_installed("nanonext", "to preview the site.")
       the$server <- nanonext::http_server(
         url = "http://127.0.0.1:0",
         handlers = nanonext::handler_directory("/", root)
