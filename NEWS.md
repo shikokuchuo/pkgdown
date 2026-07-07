@@ -1,8 +1,8 @@
 # pkgdown (development version)
 
+* Test fix for `R CMD check`.
 * When previewing a site, it is now served via a local http server. This enables dynamic features such as search to work correctly (@shikokuchuo, #2975).
-
-* do not autolink code that is in a link (href) in Rd files (#2972)
+* Code in a link (href) is no longer autolinked (#2972)
 
 # pkgdown 2.2.0
 
