@@ -441,7 +441,7 @@ Markdown code with chunks) (@idavydov, #2237).
 * In-line footnotes mean you can read asides next to the text they refer to.
 
 * Articles support tabsets,
-  [as in R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/html-tabs.html).
+  [as in R Markdown](https://pkg.yihui.org/rmarkdown-cookbook/html-tabs.html).
   (@JamesHWade, #1667).
 
 * Other minor styling improvements:

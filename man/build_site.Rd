@@ -245,7 +245,7 @@ recommend getting the HTML directly from the tool:
     in_header: |
       <script defer data-domain="\{YOUR DOMAIN\}" src="https://plausible.io/js/plausible.js"></script>
 }\if{html}{\out{</div>}}
-\item \href{https://analytics.google.com/analytics/web/}{Google analytics}:
+\item \href{https://developers.google.com/analytics}{Google analytics}:
 
 \if{html}{\out{<div class="sourceCode yaml">}}\preformatted{template:
   includes:

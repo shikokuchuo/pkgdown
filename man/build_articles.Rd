@@ -220,7 +220,7 @@ If the output format produces a PDF, you'll also need to specify the
 To work with pkgdown, the output format must accept \code{template}, \code{theme}, and
 \code{self_contained} arguments, and must work without any additional CSS or
 JSS files. Note that if you use
-\href{https://bookdown.org/yihui/rmarkdown/html-document.html#shared-options}{\verb{_output.yml}}
+\href{https://pkg.yihui.org/rmarkdown-book/html-document.html#shared-options}{\verb{_output.yml}}
 or \href{https://rmarkdown.rstudio.com/docs/reference/render_site.html}{\verb{_site.yml}}
 you'll still need to add \code{as_is: true} to each individual vignette.
 

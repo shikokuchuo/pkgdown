@@ -191,7 +191,7 @@
 #'           <script defer data-domain="{YOUR DOMAIN}" src="https://plausible.io/js/plausible.js"></script>
 #'     ```
 #'
-#' *   [Google analytics](https://analytics.google.com/analytics/web/):
+#' *   [Google analytics](https://developers.google.com/analytics):
 #'
 #'     ```yaml
 #'     template:
