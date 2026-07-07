@@ -1,4 +1,4 @@
-# pkgdown (development version)
+# pkgdown 2.2.1
 
 * Test fix for `R CMD check`.
 * When previewing a site, it is now served via a local http server. This enables dynamic features such as search to work correctly (@shikokuchuo, #2975).
